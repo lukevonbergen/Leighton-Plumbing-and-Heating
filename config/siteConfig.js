@@ -176,19 +176,19 @@ Whether you need a new boiler installed, your central heating serviced, or have 
     subheading: 'Don\'t just take our word for it',
     entries: [
       {
-        quote: 'Leighton Plumbing installed our new boiler quickly and professionally. The engineer was friendly, explained everything clearly, and left the area spotless. Highly recommend!',
-        name: 'Sarah Williams',
-        location: 'Local Customer',
+        quote: 'Excellence and professional service. 100% thoroughly recommend and goes the extra mile to satisfy his customers.',
+        name: 'Roger Craft',
+        location: 'Verified Customer',
       },
       {
-        quote: 'Called them for an emergency leak on a Sunday and they were at our door within the hour. Fantastic service and very reasonable prices. Will definitely use again.',
-        name: 'Mark Thompson',
-        location: 'Local Customer',
+        quote: 'Highly recommend gave a price and date straight away when I messaged him kept me informed of his arrival time and did not disappoint high standard of workmanship.',
+        name: 'Siobhan McAuliffe',
+        location: 'Verified Customer',
       },
       {
-        quote: 'Had our entire bathroom refitted by Leighton Plumbing. The quality of work is excellent and they were so easy to deal with throughout the whole process. Thank you!',
-        name: 'Emma & David Chen',
-        location: 'Local Customer',
+        quote: 'Fantastic and reliable service from Luke. Great communication about when he was coming and sent me all the price options available. I would highly recommend!',
+        name: 'Ruth Stevenson',
+        location: 'Verified Customer',
       },
     ],
   },
@@ -196,9 +196,9 @@ Whether you need a new boiler installed, your central heating serviced, or have 
   contact: {
     heading: 'Get in Touch',
     subheading: 'Ready to discuss your plumbing or heating needs? Contact us for a free, no-obligation quote.',
-    phone: '01onal 567 890',
-    email: 'info@leightonplumbing.co.uk',
-    serviceArea: 'Serving the local area and surrounding regions',
+    phone: '07368 158368',
+    email: 'luke_leighton@icloud.com',
+    serviceArea: 'Serving Bucks, Berks, and Oxford',
     form: {
       heading: 'Request a Quote',
       fields: {
