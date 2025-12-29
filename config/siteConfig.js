@@ -46,7 +46,9 @@ export const siteConfig = {
   },
 
   banner: {
-    show: false,
+    show: true,
+    phone: '07368 158368',
+    email: 'luke_leighton@icloud.com',
   },
 
   nav: {
@@ -81,13 +83,13 @@ export const siteConfig = {
     image: 'https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=2340&auto=format&fit=crop',
     imageAlt: 'Professional plumber at work',
     heading: 'Professional Plumbing & Heating Services',
-    subheading: 'Reliable, qualified engineers for all your plumbing and heating needs',
+    subheading: 'Reliable, qualified engineer for all your plumbing and heating needs',
     ctaText: 'Get a Free Quote',
     ctaHref: '/contact',
   },
 
   services: {
-    heading: 'Our Services',
+    heading: 'My Services',
     subheading: 'Complete plumbing and heating solutions for your home',
     items: [
       {
@@ -124,12 +126,12 @@ export const siteConfig = {
   },
 
   about: {
-    heading: 'About Leighton Plumbing and Heating',
-    content: `Leighton Plumbing and Heating is your trusted local specialist for all plumbing and heating needs. With years of experience serving homes and businesses, we pride ourselves on delivering quality workmanship and exceptional customer service.
+    heading: 'About Me',
+    content: `I'm Luke, your trusted local specialist for all plumbing and heating needs. With years of experience serving homes and businesses across Bucks, Berks, and Oxford, I pride myself on delivering quality workmanship and exceptional customer service.
 
-Our team of fully qualified, Gas Safe registered engineers are committed to providing reliable, efficient solutions for everything from routine maintenance to complex installations. We believe in doing the job right the first time, using quality materials and standing behind our work.
+As a fully qualified, Gas Safe registered engineer, I'm committed to providing reliable, efficient solutions for everything from routine maintenance to complex installations. I believe in doing the job right the first time, using quality materials and standing behind my work.
 
-Whether you need a new boiler installed, your central heating serviced, or have a plumbing emergency, we're here to help. We offer competitive prices, free quotes, and always aim to cause minimal disruption to your daily routine.`,
+Whether you need a new boiler installed, your central heating serviced, or have a plumbing emergency, I'm here to help. I offer competitive prices, free quotes, and always aim to cause minimal disruption to your daily routine.`,
     image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2340&auto=format&fit=crop',
     imageAlt: 'Professional plumbing and heating engineer',
     features: [
@@ -141,39 +143,39 @@ Whether you need a new boiler installed, your central heating serviced, or have 
   },
 
   gallery: {
-    heading: 'Our Work',
-    subheading: 'Examples of our recent plumbing and heating projects',
+    heading: 'My Work',
+    subheading: 'Examples of my recent plumbing and heating projects',
     images: [
       {
-        src: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2340&auto=format&fit=crop',
-        alt: 'Modern bathroom installation',
+        src: 'https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=2340&auto=format&fit=crop',
+        alt: 'Professional plumber at work',
       },
       {
-        src: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=2340&auto=format&fit=crop',
-        alt: 'New boiler installation',
+        src: 'https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?q=80&w=2340&auto=format&fit=crop',
+        alt: 'Boiler installation',
       },
       {
-        src: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=2340&auto=format&fit=crop',
+        src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2340&auto=format&fit=crop',
+        alt: 'Bathroom renovation',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2340&auto=format&fit=crop',
+        alt: 'Pipe fitting work',
+      },
+      {
+        src: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777189?q=80&w=2340&auto=format&fit=crop',
         alt: 'Radiator installation',
       },
       {
-        src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2340&auto=format&fit=crop',
-        alt: 'Kitchen plumbing work',
-      },
-      {
-        src: 'https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=2340&auto=format&fit=crop',
-        alt: 'Professional plumbing repair',
-      },
-      {
-        src: 'https://images.unsplash.com/photo-1613685703305-ad874bb6e66a?q=80&w=2340&auto=format&fit=crop',
-        alt: 'Heating system maintenance',
+        src: 'https://images.unsplash.com/photo-1542013936693-884638332954?q=80&w=2340&auto=format&fit=crop',
+        alt: 'Modern bathroom fitting',
       },
     ],
   },
 
   testimonials: {
-    heading: 'What Our Customers Say',
-    subheading: 'Don\'t just take our word for it',
+    heading: 'What My Customers Say',
+    subheading: 'Don\'t just take my word for it',
     entries: [
       {
         quote: 'Excellence and professional service. 100% thoroughly recommend and goes the extra mile to satisfy his customers.',
@@ -195,7 +197,7 @@ Whether you need a new boiler installed, your central heating serviced, or have 
 
   contact: {
     heading: 'Get in Touch',
-    subheading: 'Ready to discuss your plumbing or heating needs? Contact us for a free, no-obligation quote.',
+    subheading: 'Ready to discuss your plumbing or heating needs? Contact me for a free, no-obligation quote.',
     phone: '07368 158368',
     email: 'luke_leighton@icloud.com',
     serviceArea: 'Serving Bucks, Berks, and Oxford',

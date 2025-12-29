@@ -12,8 +12,8 @@ export default function CarpentryFooter() {
           <div>
             <h3 className="text-xl font-bold mb-4">{siteName}</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Your trusted local specialists for all plumbing and heating needs.
-              Gas Safe registered engineers providing quality workmanship and
+              Your trusted local specialist for all plumbing and heating needs.
+              Gas Safe registered engineer providing quality workmanship and
               exceptional customer service.
             </p>
           </div>
@@ -37,7 +37,7 @@ export default function CarpentryFooter() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-semibold mb-4">Contact Us</h4>
+            <h4 className="font-semibold mb-4">Contact Me</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>
                 <a

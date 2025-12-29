@@ -40,7 +40,7 @@ export default function CarpentryHero() {
             className="inline-flex items-center justify-center gap-2 bg-[#FA0300] hover:bg-[#d90200] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-150 cursor-pointer"
           >
             <Phone className="w-5 h-5" />
-            Call Us
+            Call Me
           </a>
         </div>
       </div>

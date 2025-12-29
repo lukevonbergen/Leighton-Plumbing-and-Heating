@@ -1,31 +1,29 @@
 'use client';
-import { useState } from 'react';
 import { siteConfig } from '@/config/siteConfig';
+import { Phone, Mail } from 'lucide-react';
 
 export default function BannerStrip() {
-  const [visible, setVisible] = useState(true);
   const banner = siteConfig.banner;
 
-  if (!banner.show || !visible) return null;
+  if (!banner.show) return null;
 
   return (
-    <div className={`${siteConfig.styles.bgPrimary} ${siteConfig.styles.textLight} text-sm py-3 px-4 relative`}>
-      {/* Close Button */}
-      <button
-        onClick={() => setVisible(false)}
-        className="absolute top-2 right-4 text-xl font-bold hover:opacity-70 transition"
-        aria-label="Close"
-      >
-        &times;
-      </button>
-
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2 text-center md:text-left">
-        <span className="text-base font-medium">{banner.message}</span>
+    <div className="fixed top-0 left-0 right-0 z-50 bg-[#FA0300] text-white text-sm py-2 px-4">
+      <div className="max-w-7xl mx-auto flex justify-center items-center gap-4 md:gap-8">
         <a
-          href={banner.cta.href}
-          className="underline hover:opacity-80 transition text-base font-semibold"
+          href={`tel:${banner.phone.replace(/\s/g, '')}`}
+          className="flex items-center gap-2 hover:opacity-80 transition font-medium"
         >
-          {banner.cta.label}
+          <Phone className="w-4 h-4" />
+          <span>{banner.phone}</span>
+        </a>
+        <span className="hidden md:inline text-white/50">|</span>
+        <a
+          href={`mailto:${banner.email}`}
+          className="hidden md:flex items-center gap-2 hover:opacity-80 transition font-medium"
+        >
+          <Mail className="w-4 h-4" />
+          <span>{banner.email}</span>
         </a>
       </div>
     </div>

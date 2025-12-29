@@ -27,9 +27,9 @@ export default function ServicesPage() {
   const { services } = siteConfig;
 
   return (
-    <main className="pt-24">
+    <main>
       {/* Hero Section */}
-      <section className="bg-[#00A1D7] py-20 px-6 md:px-12">
+      <section className="bg-[#00A1D7] pt-40 md:pt-52 pb-20 px-6 md:px-12">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
             {services.heading}

@@ -12,9 +12,9 @@ export default function AboutPage() {
   const { about, testimonials } = siteConfig;
 
   return (
-    <main className="pt-24">
+    <main>
       {/* Hero Section */}
-      <section className="bg-[#00A1D7] py-20 px-6 md:px-12">
+      <section className="bg-[#00A1D7] pt-40 md:pt-52 pb-20 px-6 md:px-12">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
             {about.heading}
@@ -42,7 +42,7 @@ export default function AboutPage() {
             {/* Content */}
             <div>
               <h2 className="text-3xl font-bold text-[#1A1A1A] mb-6">
-                Our Story
+                My Story
               </h2>
               <div className="prose prose-lg text-gray-600 mb-8">
                 {about.content.split('\n\n').map((paragraph, index) => (
@@ -72,7 +72,7 @@ export default function AboutPage() {
       <section className="py-20 px-6 md:px-12 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-[#1A1A1A] text-center mb-12">
-            Why Choose Us
+            Why Choose Me
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
@@ -81,7 +81,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-semibold text-[#1A1A1A] mb-3">Gas Safe Registered</h3>
               <p className="text-gray-600">
-                All our engineers are fully qualified and Gas Safe registered for your peace of mind.
+                I'm fully qualified and Gas Safe registered for your peace of mind.
               </p>
             </div>
             <div className="text-center">
@@ -90,7 +90,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-semibold text-[#1A1A1A] mb-3">Emergency Callouts</h3>
               <p className="text-gray-600">
-                Plumbing emergencies don't wait. We offer rapid response when you need us most.
+                Plumbing emergencies don't wait. I offer rapid response when you need me most.
               </p>
             </div>
             <div className="text-center">
@@ -99,7 +99,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-semibold text-[#1A1A1A] mb-3">Satisfaction Guaranteed</h3>
               <p className="text-gray-600">
-                We're not happy until you're happy. Quality workmanship is our guarantee.
+                I'm not happy until you're happy. Quality workmanship is my guarantee.
               </p>
             </div>
           </div>
@@ -134,7 +134,7 @@ export default function AboutPage() {
             href="/contact"
             className="inline-block bg-[#00A1D7] hover:bg-[#0089b8] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 hover:shadow-lg"
           >
-            Contact Us
+            Contact Me
           </Link>
         </div>
       </section>

@@ -16,8 +16,10 @@ export default function CarpentryNav() {
   const leftLinks = nav.links.slice(0, 2); // Services, About
   const rightLinks = nav.links.slice(2);   // Gallery, Contact
 
+  const bannerHeight = siteConfig.banner.show ? 'top-[36px]' : 'top-0';
+
   return (
-    <header className="w-full fixed top-0 z-50 bg-white shadow-sm">
+    <header className={`w-full fixed ${bannerHeight} z-50 bg-white shadow-sm`}>
       <div className="max-w-7xl mx-auto px-6 py-4">
         {/* Desktop Navigation - Logo centered with links on sides */}
         <div className="hidden md:flex items-center justify-center">

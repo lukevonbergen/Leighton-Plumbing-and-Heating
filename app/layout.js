@@ -1,5 +1,6 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
+import BannerStrip from '@/components/banner/Banner_1';
 import CarpentryNav from '@/components/navigation/CarpentryNav';
 import CarpentryFooter from '@/components/footer/CarpentryFooter';
 import { siteConfig } from '@/config/siteConfig';
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
           text-[#1A1A1A]
         `}
       >
+        <BannerStrip />
         <CarpentryNav />
         <main>{children}</main>
         <CarpentryFooter />
