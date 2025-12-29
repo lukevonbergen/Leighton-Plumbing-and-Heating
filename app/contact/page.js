@@ -28,39 +28,39 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="pt-20">
+    <main className="pt-24">
       {/* Hero Section */}
-      <section className="bg-[#5C4033] py-20 px-6 md:px-12">
+      <section className="bg-[#00A1D7] py-20 px-6 md:px-12">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
             {contact.heading}
           </h1>
-          <p className="text-xl text-[#D4C4B0]">
+          <p className="text-xl text-white/90">
             {contact.subheading}
           </p>
         </div>
       </section>
 
       {/* Contact Content */}
-      <section className="py-20 px-6 md:px-12 bg-[#FAF8F5]">
+      <section className="py-20 px-6 md:px-12 bg-[#F8FAFB]">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Info */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-2xl font-semibold text-[#2C2416] mb-6">
+                <h2 className="text-2xl font-semibold text-[#1A1A1A] mb-6">
                   Contact Details
                 </h2>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-[#D4C4B0] rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Phone className="w-6 h-6 text-[#5C4033]" />
+                    <div className="w-12 h-12 bg-[#E6F7FC] rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Phone className="w-6 h-6 text-[#00A1D7]" />
                     </div>
                     <div>
-                      <p className="text-sm text-[#8B7355] mb-1">Phone</p>
+                      <p className="text-sm text-gray-500 mb-1">Phone</p>
                       <a
                         href={`tel:${contact.phone.replace(/\s/g, '')}`}
-                        className="text-lg font-medium text-[#2C2416] hover:text-[#5C4033] transition-colors"
+                        className="text-lg font-medium text-[#1A1A1A] hover:text-[#00A1D7] transition-colors"
                       >
                         {contact.phone}
                       </a>
@@ -68,14 +68,14 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-[#D4C4B0] rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Mail className="w-6 h-6 text-[#5C4033]" />
+                    <div className="w-12 h-12 bg-[#E6F7FC] rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Mail className="w-6 h-6 text-[#00A1D7]" />
                     </div>
                     <div>
-                      <p className="text-sm text-[#8B7355] mb-1">Email</p>
+                      <p className="text-sm text-gray-500 mb-1">Email</p>
                       <a
                         href={`mailto:${contact.email}`}
-                        className="text-lg font-medium text-[#2C2416] hover:text-[#5C4033] transition-colors"
+                        className="text-lg font-medium text-[#1A1A1A] hover:text-[#00A1D7] transition-colors"
                       >
                         {contact.email}
                       </a>
@@ -83,12 +83,12 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-[#D4C4B0] rounded-lg flex items-center justify-center flex-shrink-0">
-                      <MapPin className="w-6 h-6 text-[#5C4033]" />
+                    <div className="w-12 h-12 bg-[#E6F7FC] rounded-lg flex items-center justify-center flex-shrink-0">
+                      <MapPin className="w-6 h-6 text-[#00A1D7]" />
                     </div>
                     <div>
-                      <p className="text-sm text-[#8B7355] mb-1">Service Area</p>
-                      <p className="text-lg font-medium text-[#2C2416]">
+                      <p className="text-sm text-gray-500 mb-1">Service Area</p>
+                      <p className="text-lg font-medium text-[#1A1A1A]">
                         {contact.serviceArea}
                       </p>
                     </div>
@@ -97,27 +97,27 @@ export default function ContactPage() {
               </div>
 
               {/* Additional Info */}
-              <div className="bg-white rounded-xl p-6 border border-[#D4C4B0]">
-                <h3 className="font-semibold text-[#2C2416] mb-3">
+              <div className="bg-white rounded-xl p-6 border border-gray-200">
+                <h3 className="font-semibold text-[#1A1A1A] mb-3">
                   Free Quotes & Consultations
                 </h3>
-                <p className="text-[#5C4033] leading-relaxed mb-4">
-                  Get in touch to discuss your project. We offer free, no-obligation
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  Get in touch to discuss your plumbing or heating needs. We offer free, no-obligation
                   quotes and are happy to visit your property to provide accurate
                   estimates.
                 </p>
-                <p className="text-[#5C4033] leading-relaxed">
-                  Whether it's a small repair or a complete renovation, we're here to help.
+                <p className="text-gray-600 leading-relaxed">
+                  Whether it's a small repair or a complete installation, we're here to help.
                   We typically respond within 24 hours.
                 </p>
               </div>
 
               {/* Working Hours */}
-              <div className="bg-white rounded-xl p-6 border border-[#D4C4B0]">
-                <h3 className="font-semibold text-[#2C2416] mb-3">
+              <div className="bg-white rounded-xl p-6 border border-gray-200">
+                <h3 className="font-semibold text-[#1A1A1A] mb-3">
                   Working Hours
                 </h3>
-                <ul className="space-y-2 text-[#5C4033]">
+                <ul className="space-y-2 text-gray-600">
                   <li className="flex justify-between">
                     <span>Monday - Friday</span>
                     <span className="font-medium">8:00 AM - 6:00 PM</span>
@@ -128,15 +128,15 @@ export default function ContactPage() {
                   </li>
                   <li className="flex justify-between">
                     <span>Sunday</span>
-                    <span className="font-medium">Closed</span>
+                    <span className="font-medium">Emergency Only</span>
                   </li>
                 </ul>
               </div>
             </div>
 
             {/* Contact Form */}
-            <div className="bg-white rounded-xl p-8 border border-[#D4C4B0] shadow-sm">
-              <h2 className="text-2xl font-semibold text-[#2C2416] mb-6">
+            <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm">
+              <h2 className="text-2xl font-semibold text-[#1A1A1A] mb-6">
                 {contact.form.heading}
               </h2>
 
@@ -157,7 +157,7 @@ export default function ContactPage() {
                   <div>
                     <label
                       htmlFor="name"
-                      className="block text-sm font-medium text-[#2C2416] mb-2"
+                      className="block text-sm font-medium text-[#1A1A1A] mb-2"
                     >
                       {contact.form.fields.name.label} *
                     </label>
@@ -169,14 +169,14 @@ export default function ContactPage() {
                       onChange={handleChange}
                       placeholder={contact.form.fields.name.placeholder}
                       required
-                      className="w-full px-4 py-3 rounded-lg border border-[#D4C4B0] bg-[#FAF8F5] text-[#2C2416] placeholder-[#8B7355] focus:outline-none focus:ring-2 focus:ring-[#5C4033] focus:border-transparent transition"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-[#F8FAFB] text-[#1A1A1A] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00A1D7] focus:border-transparent transition"
                     />
                   </div>
 
                   <div>
                     <label
                       htmlFor="email"
-                      className="block text-sm font-medium text-[#2C2416] mb-2"
+                      className="block text-sm font-medium text-[#1A1A1A] mb-2"
                     >
                       {contact.form.fields.email.label} *
                     </label>
@@ -188,14 +188,14 @@ export default function ContactPage() {
                       onChange={handleChange}
                       placeholder={contact.form.fields.email.placeholder}
                       required
-                      className="w-full px-4 py-3 rounded-lg border border-[#D4C4B0] bg-[#FAF8F5] text-[#2C2416] placeholder-[#8B7355] focus:outline-none focus:ring-2 focus:ring-[#5C4033] focus:border-transparent transition"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-[#F8FAFB] text-[#1A1A1A] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00A1D7] focus:border-transparent transition"
                     />
                   </div>
 
                   <div>
                     <label
                       htmlFor="phone"
-                      className="block text-sm font-medium text-[#2C2416] mb-2"
+                      className="block text-sm font-medium text-[#1A1A1A] mb-2"
                     >
                       {contact.form.fields.phone.label}
                     </label>
@@ -206,14 +206,14 @@ export default function ContactPage() {
                       value={formData.phone}
                       onChange={handleChange}
                       placeholder={contact.form.fields.phone.placeholder}
-                      className="w-full px-4 py-3 rounded-lg border border-[#D4C4B0] bg-[#FAF8F5] text-[#2C2416] placeholder-[#8B7355] focus:outline-none focus:ring-2 focus:ring-[#5C4033] focus:border-transparent transition"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-[#F8FAFB] text-[#1A1A1A] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00A1D7] focus:border-transparent transition"
                     />
                   </div>
 
                   <div>
                     <label
                       htmlFor="message"
-                      className="block text-sm font-medium text-[#2C2416] mb-2"
+                      className="block text-sm font-medium text-[#1A1A1A] mb-2"
                     >
                       {contact.form.fields.message.label} *
                     </label>
@@ -225,13 +225,13 @@ export default function ContactPage() {
                       placeholder={contact.form.fields.message.placeholder}
                       rows={5}
                       required
-                      className="w-full px-4 py-3 rounded-lg border border-[#D4C4B0] bg-[#FAF8F5] text-[#2C2416] placeholder-[#8B7355] focus:outline-none focus:ring-2 focus:ring-[#5C4033] focus:border-transparent transition resize-none"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-[#F8FAFB] text-[#1A1A1A] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00A1D7] focus:border-transparent transition resize-none"
                     />
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full bg-[#5C4033] hover:bg-[#4A3429] text-white font-semibold py-4 rounded-lg transition-all duration-300 hover:shadow-lg"
+                    className="w-full bg-[#00A1D7] hover:bg-[#0089b8] text-white font-semibold py-4 rounded-lg transition-all duration-300 hover:shadow-lg"
                   >
                     {contact.form.button}
                   </button>

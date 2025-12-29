@@ -22,10 +22,10 @@ export default function CarpentryAbout() {
 
           {/* Content */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#2C2416] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-6">
               {about.heading}
             </h2>
-            <div className="prose prose-lg text-[#5C4033] mb-8">
+            <div className="prose prose-lg text-gray-600 mb-8">
               {about.content.split('\n\n').slice(0, 2).map((paragraph, index) => (
                 <p key={index} className="mb-4 leading-relaxed">
                   {paragraph}
@@ -37,10 +37,10 @@ export default function CarpentryAbout() {
             <div className="grid grid-cols-2 gap-4 mb-8">
               {about.features.map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
-                  <div className="w-6 h-6 bg-[#5C4033] rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-6 h-6 bg-[#00A1D7] rounded-full flex items-center justify-center flex-shrink-0">
                     <Check className="w-4 h-4 text-white" />
                   </div>
-                  <span className="text-[#2C2416] font-medium">{feature}</span>
+                  <span className="text-[#1A1A1A] font-medium">{feature}</span>
                 </div>
               ))}
             </div>
@@ -48,7 +48,7 @@ export default function CarpentryAbout() {
             {/* Learn More Link */}
             <Link
               href="/about"
-              className="inline-flex items-center gap-2 text-[#5C4033] hover:text-[#4A3429] font-semibold transition-colors"
+              className="inline-flex items-center gap-2 text-[#00A1D7] hover:text-[#0089b8] font-semibold transition-colors"
             >
               Learn More About Us
               <ArrowRight className="w-5 h-5" />

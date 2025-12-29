@@ -5,15 +5,16 @@ export default function CarpentryFooter() {
   const { siteName, footer, contact } = siteConfig;
 
   return (
-    <footer className="bg-[#2C2416] text-white py-12 px-6 md:px-12">
+    <footer className="bg-[#1A1A1A] text-white py-12 px-6 md:px-12">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
             <h3 className="text-xl font-bold mb-4">{siteName}</h3>
-            <p className="text-[#D4C4B0] text-sm leading-relaxed">
-              Quality craftsmanship for over 15 years. Bespoke carpentry services
-              for homes across Surrey and South London.
+            <p className="text-gray-400 text-sm leading-relaxed">
+              Your trusted local specialists for all plumbing and heating needs.
+              Gas Safe registered engineers providing quality workmanship and
+              exceptional customer service.
             </p>
           </div>
 
@@ -25,7 +26,7 @@ export default function CarpentryFooter() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-[#D4C4B0] hover:text-white transition-colors text-sm"
+                    className="text-gray-400 hover:text-[#00A1D7] transition-colors text-sm"
                   >
                     {link.label}
                   </Link>
@@ -37,11 +38,11 @@ export default function CarpentryFooter() {
           {/* Contact Info */}
           <div>
             <h4 className="font-semibold mb-4">Contact Us</h4>
-            <ul className="space-y-2 text-sm text-[#D4C4B0]">
+            <ul className="space-y-2 text-sm text-gray-400">
               <li>
                 <a
                   href={`tel:${contact.phone.replace(/\s/g, '')}`}
-                  className="hover:text-white transition-colors"
+                  className="hover:text-[#00A1D7] transition-colors"
                 >
                   {contact.phone}
                 </a>
@@ -49,7 +50,7 @@ export default function CarpentryFooter() {
               <li>
                 <a
                   href={`mailto:${contact.email}`}
-                  className="hover:text-white transition-colors"
+                  className="hover:text-[#00A1D7] transition-colors"
                 >
                   {contact.email}
                 </a>
@@ -60,11 +61,11 @@ export default function CarpentryFooter() {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-[#5C4033] pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center text-sm text-[#8B7355]">
+        <div className="border-t border-gray-800 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
             <p>&copy; {new Date().getFullYear()} {siteName}. All rights reserved.</p>
             <p className="mt-2 md:mt-0">
-              Quality Craftsmanship, Built to Last
+              Professional Plumbing & Heating Services
             </p>
           </div>
         </div>

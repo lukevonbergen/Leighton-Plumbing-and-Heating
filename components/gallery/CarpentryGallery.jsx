@@ -22,14 +22,14 @@ export default function CarpentryGallery() {
 
   return (
     <>
-      <section className="py-20 px-6 md:px-12 bg-[#FAF8F5]">
+      <section className="py-20 px-6 md:px-12 bg-[#F8FAFB]">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#2C2416] mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
               {gallery.heading}
             </h2>
-            <p className="text-lg text-[#5C4033] max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               {gallery.subheading}
             </p>
           </div>
@@ -49,7 +49,7 @@ export default function CarpentryGallery() {
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-[#2C2416]/0 group-hover:bg-[#2C2416]/40 transition-all duration-300 flex items-center justify-center">
+                <div className="absolute inset-0 bg-[#1A1A1A]/0 group-hover:bg-[#1A1A1A]/40 transition-all duration-300 flex items-center justify-center">
                   <span className="text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 px-4 text-center">
                     {image.alt}
                   </span>
@@ -62,7 +62,7 @@ export default function CarpentryGallery() {
           <div className="text-center mt-12">
             <Link
               href="/gallery"
-              className="inline-flex items-center gap-2 text-[#5C4033] hover:text-[#4A3429] font-semibold transition-colors"
+              className="inline-flex items-center gap-2 text-[#00A1D7] hover:text-[#0089b8] font-semibold transition-colors"
             >
               View Full Gallery
               <ArrowRight className="w-5 h-5" />

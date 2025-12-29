@@ -27,8 +27,8 @@ export default function CarpentryNav() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm font-medium tracking-wide uppercase transition-colors duration-200 hover:text-[#8B7355] ${
-                  pathname === link.href ? 'text-[#5C4033]' : 'text-[#2C2416]'
+                className={`text-sm font-medium tracking-wide uppercase transition-colors duration-200 hover:text-[#00A1D7] ${
+                  pathname === link.href ? 'text-[#00A1D7]' : 'text-[#1A1A1A]'
                 }`}
               >
                 {link.label}
@@ -41,9 +41,9 @@ export default function CarpentryNav() {
             <Image
               src={siteConfig.logo.src}
               alt={siteConfig.logo.alt}
-              width={120}
-              height={80}
-              className="h-16 w-auto"
+              width={140}
+              height={90}
+              className="h-20 w-auto"
               priority
             />
           </Link>
@@ -54,8 +54,8 @@ export default function CarpentryNav() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm font-medium tracking-wide uppercase transition-colors duration-200 hover:text-[#8B7355] ${
-                  pathname === link.href ? 'text-[#5C4033]' : 'text-[#2C2416]'
+                className={`text-sm font-medium tracking-wide uppercase transition-colors duration-200 hover:text-[#00A1D7] ${
+                  pathname === link.href ? 'text-[#00A1D7]' : 'text-[#1A1A1A]'
                 }`}
               >
                 {link.label}
@@ -69,7 +69,7 @@ export default function CarpentryNav() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-[#2C2416] focus:outline-none"
+            className="text-[#1A1A1A] focus:outline-none"
             aria-label="Toggle menu"
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -80,9 +80,9 @@ export default function CarpentryNav() {
             <Image
               src={siteConfig.logo.src}
               alt={siteConfig.logo.alt}
-              width={100}
-              height={60}
-              className="h-12 w-auto"
+              width={120}
+              height={80}
+              className="h-14 w-auto"
               priority
             />
           </Link>
@@ -102,7 +102,7 @@ export default function CarpentryNav() {
                   href={link.href}
                   onClick={() => setIsOpen(false)}
                   className={`block py-4 text-sm font-medium tracking-wide uppercase transition-colors ${
-                    pathname === link.href ? 'text-[#5C4033]' : 'text-[#2C2416]'
+                    pathname === link.href ? 'text-[#00A1D7]' : 'text-[#1A1A1A]'
                   }`}
                 >
                   {link.label}

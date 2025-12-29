@@ -1,17 +1,17 @@
 // config/siteConfig.js
 export const siteConfig = {
-  siteName: 'Oakwood Carpentry',
+  siteName: 'Leighton Plumbing and Heating',
   logo: {
-    text: 'Oakwood Carpentry',
-    src: '/logo/oakwood-logo.png',
-    alt: 'Oakwood Carpentry Logo',
-    height: 50,
+    text: 'Leighton Plumbing and Heating',
+    src: '/logo/leighton_plumbing_logo_transparent.png',
+    alt: 'Leighton Plumbing and Heating Logo',
+    height: 60,
   },
   metadata: {
     base: {
-      title: 'Oakwood Carpentry – Quality Craftsmanship, Built to Last',
+      title: 'Leighton Plumbing and Heating – Professional Plumbing & Heating Services',
       description:
-        'Bespoke carpentry services including fitted kitchens, custom furniture, built-in wardrobes, flooring, and more. Family-run business with 15+ years experience.',
+        'Expert plumbing and heating services including boiler installations, repairs, bathroom fitting, central heating, and emergency callouts. Fully qualified Gas Safe registered engineers.',
       icons: { icon: '/favicon.ico' },
     },
   },
@@ -24,25 +24,25 @@ export const siteConfig = {
     google: { base: 'Inter', heading: 'Inter', accent: 'Inter' },
   },
 
-  // Earthy color scheme
+  // Brand colors from logo
   brand: {
-    primary: '#5C4033', // warm brown
-    secondary: '#8B7355', // lighter brown
-    accent: '#D4C4B0', // cream/tan
-    background: '#FAF8F5', // off-white
-    dark: '#2C2416', // dark charcoal brown
+    primary: '#00A1D7', // blue
+    secondary: '#FA0300', // red
+    accent: '#E6F7FC', // light blue
+    background: '#FFFFFF', // white
+    dark: '#1A1A1A', // dark grey/black
   },
 
   styles: {
-    bgLight: 'bg-[#FAF8F5]',
-    bgPrimary: 'bg-[#5C4033]',
-    bgSecondary: 'bg-[#8B7355]',
-    bgAccent: 'bg-[#D4C4B0]',
-    textPrimary: 'text-[#2C2416]',
-    textMuted: 'text-[#5C4033]',
-    textLight: 'text-[#FAF8F5]',
-    borderLight: 'border-[#D4C4B0]',
-    borderDark: 'border-[#5C4033]',
+    bgLight: 'bg-white',
+    bgPrimary: 'bg-[#00A1D7]',
+    bgSecondary: 'bg-[#FA0300]',
+    bgAccent: 'bg-[#E6F7FC]',
+    textPrimary: 'text-[#1A1A1A]',
+    textMuted: 'text-gray-600',
+    textLight: 'text-white',
+    borderLight: 'border-gray-200',
+    borderDark: 'border-[#00A1D7]',
   },
 
   banner: {
@@ -59,7 +59,7 @@ export const siteConfig = {
   },
 
   footer: {
-    copyright: 'Oakwood Carpentry',
+    copyright: 'Leighton Plumbing and Heating',
     nav: [
       { label: 'Services', href: '/services' },
       { label: 'About', href: '/about' },
@@ -78,134 +78,134 @@ export const siteConfig = {
   },
 
   hero: {
-    image: 'https://images.unsplash.com/photo-1729837149098-1e173e7b96fb?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    imageAlt: 'Craftsman working on wood in workshop',
-    heading: 'Quality Craftsmanship, Built to Last',
-    subheading: 'Bespoke carpentry services in Surrey & South London',
+    image: 'https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=2340&auto=format&fit=crop',
+    imageAlt: 'Professional plumber at work',
+    heading: 'Professional Plumbing & Heating Services',
+    subheading: 'Reliable, qualified engineers for all your plumbing and heating needs',
     ctaText: 'Get a Free Quote',
     ctaHref: '/contact',
   },
 
   services: {
     heading: 'Our Services',
-    subheading: 'Expert craftsmanship for every project',
+    subheading: 'Complete plumbing and heating solutions for your home',
     items: [
       {
-        title: 'Fitted Kitchens',
-        description: 'Custom-designed kitchens built to your exact specifications, maximising space and style.',
-        icon: 'kitchen',
+        title: 'Boiler Installation',
+        description: 'Expert installation of new boilers from leading brands. Energy-efficient systems tailored to your home and budget.',
+        icon: 'boiler',
       },
       {
-        title: 'Bespoke Furniture',
-        description: 'One-of-a-kind furniture pieces crafted to match your home and personal taste.',
-        icon: 'furniture',
+        title: 'Boiler Servicing & Repairs',
+        description: 'Annual servicing to keep your boiler running safely and efficiently. Fast repairs when you need them most.',
+        icon: 'service',
       },
       {
-        title: 'Built-in Wardrobes',
-        description: 'Space-saving storage solutions tailored to fit any room perfectly.',
-        icon: 'wardrobe',
+        title: 'Central Heating',
+        description: 'Full central heating installations, repairs, and upgrades. Radiator fitting and power flushing services.',
+        icon: 'heating',
       },
       {
-        title: 'Flooring',
-        description: 'Professional installation of hardwood, engineered wood, and laminate flooring.',
-        icon: 'flooring',
+        title: 'Bathroom Plumbing',
+        description: 'Complete bathroom installations, from design to finish. Showers, baths, toilets, and basin fitting.',
+        icon: 'bathroom',
       },
       {
-        title: 'Doors & Windows',
-        description: 'Expert fitting and restoration of interior and exterior doors and windows.',
-        icon: 'door',
+        title: 'General Plumbing',
+        description: 'From leaky taps to burst pipes, we handle all plumbing repairs and installations professionally.',
+        icon: 'plumbing',
       },
       {
-        title: 'General Carpentry',
-        description: 'From skirting boards to shelving, we handle all your carpentry needs.',
-        icon: 'hammer',
+        title: 'Emergency Callouts',
+        description: 'Plumbing emergencies don\'t wait. We offer rapid response for urgent heating and plumbing issues.',
+        icon: 'emergency',
       },
     ],
   },
 
   about: {
-    heading: 'About Oakwood Carpentry',
-    content: `With over 15 years of experience, Oakwood Carpentry is a family-run business dedicated to delivering exceptional craftsmanship. We take pride in every project, from bespoke furniture to complete kitchen installations.
+    heading: 'About Leighton Plumbing and Heating',
+    content: `Leighton Plumbing and Heating is your trusted local specialist for all plumbing and heating needs. With years of experience serving homes and businesses, we pride ourselves on delivering quality workmanship and exceptional customer service.
 
-We use only the finest quality materials and traditional woodworking techniques combined with modern precision. Our team is fully insured and committed to completing every job to the highest standards, on time and within budget.
+Our team of fully qualified, Gas Safe registered engineers are committed to providing reliable, efficient solutions for everything from routine maintenance to complex installations. We believe in doing the job right the first time, using quality materials and standing behind our work.
 
-Whether you're looking to transform your home with custom cabinetry or need reliable general carpentry work, we're here to bring your vision to life.`,
-    image: 'https://images.unsplash.com/photo-1628797279405-8cd6ffdbeb6c?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    imageAlt: 'Carpenter crafting wood in workshop',
+Whether you need a new boiler installed, your central heating serviced, or have a plumbing emergency, we're here to help. We offer competitive prices, free quotes, and always aim to cause minimal disruption to your daily routine.`,
+    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2340&auto=format&fit=crop',
+    imageAlt: 'Professional plumbing and heating engineer',
     features: [
-      '15+ years experience',
-      'Family-run business',
-      'Quality materials',
-      'Fully insured',
+      'Gas Safe Registered',
+      'Fully Insured',
+      'Free Quotes',
+      'No Call-Out Fee',
     ],
   },
 
   gallery: {
     heading: 'Our Work',
-    subheading: 'A selection of our recent projects',
+    subheading: 'Examples of our recent plumbing and heating projects',
     images: [
       {
-        src: 'https://plus.unsplash.com/premium_photo-1676823552780-90cc52f0db1d?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        alt: 'Custom fitted kitchen',
+        src: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2340&auto=format&fit=crop',
+        alt: 'Modern bathroom installation',
       },
       {
-        src: 'https://images.unsplash.com/photo-1761656630581-69a58e4e1c09?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        alt: 'Bespoke wooden cabinetry',
+        src: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=2340&auto=format&fit=crop',
+        alt: 'New boiler installation',
       },
       {
-        src: 'https://images.unsplash.com/photo-1760155089939-1c9d2a45c0e8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        alt: 'Built-in storage solutions',
+        src: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=2340&auto=format&fit=crop',
+        alt: 'Radiator installation',
       },
       {
-        src: 'https://images.unsplash.com/photo-1637747022694-92c8cbc90a38?q=80&w=2017&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        alt: 'Hardwood flooring installation',
+        src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2340&auto=format&fit=crop',
+        alt: 'Kitchen plumbing work',
       },
       {
-        src: 'https://images.unsplash.com/photo-1737575212792-c0c06dd4e12a?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        alt: 'Custom shelving unit',
+        src: 'https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=2340&auto=format&fit=crop',
+        alt: 'Professional plumbing repair',
       },
       {
-        src: 'https://images.unsplash.com/photo-1751806524631-565725f5bb74?q=80&w=973&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        alt: 'Modern kitchen with custom woodwork',
+        src: 'https://images.unsplash.com/photo-1613685703305-ad874bb6e66a?q=80&w=2340&auto=format&fit=crop',
+        alt: 'Heating system maintenance',
       },
     ],
   },
 
   testimonials: {
-    heading: 'What Our Clients Say',
+    heading: 'What Our Customers Say',
     subheading: 'Don\'t just take our word for it',
     entries: [
       {
-        quote: 'Oakwood Carpentry transformed our kitchen beyond our expectations. The attention to detail was incredible, and the team was professional from start to finish. Highly recommended!',
-        name: 'Sarah Mitchell',
-        location: 'Guildford, Surrey',
+        quote: 'Leighton Plumbing installed our new boiler quickly and professionally. The engineer was friendly, explained everything clearly, and left the area spotless. Highly recommend!',
+        name: 'Sarah Williams',
+        location: 'Local Customer',
       },
       {
-        quote: 'We had bespoke wardrobes fitted in all three bedrooms. The quality of workmanship is outstanding, and they maximised every inch of space. Couldn\'t be happier with the result.',
-        name: 'James & Emma Thompson',
-        location: 'Kingston upon Thames',
+        quote: 'Called them for an emergency leak on a Sunday and they were at our door within the hour. Fantastic service and very reasonable prices. Will definitely use again.',
+        name: 'Mark Thompson',
+        location: 'Local Customer',
       },
       {
-        quote: 'Reliable, skilled, and great value. They restored our Victorian sash windows beautifully and fitted new oak flooring throughout. A true craftsman\'s touch.',
-        name: 'David Chen',
-        location: 'Wimbledon, London',
+        quote: 'Had our entire bathroom refitted by Leighton Plumbing. The quality of work is excellent and they were so easy to deal with throughout the whole process. Thank you!',
+        name: 'Emma & David Chen',
+        location: 'Local Customer',
       },
     ],
   },
 
   contact: {
     heading: 'Get in Touch',
-    subheading: 'Ready to start your project? Contact us for a free, no-obligation quote.',
-    phone: '01234 567890',
-    email: 'info@oakwoodcarpentry.co.uk',
-    serviceArea: 'Serving Surrey, South London, and surrounding areas',
+    subheading: 'Ready to discuss your plumbing or heating needs? Contact us for a free, no-obligation quote.',
+    phone: '01onal 567 890',
+    email: 'info@leightonplumbing.co.uk',
+    serviceArea: 'Serving the local area and surrounding regions',
     form: {
       heading: 'Request a Quote',
       fields: {
         name: { label: 'Name', placeholder: 'Your name' },
         email: { label: 'Email', placeholder: 'you@example.com' },
         phone: { label: 'Phone', placeholder: 'Your phone number' },
-        message: { label: 'Message', placeholder: 'Tell us about your project...' },
+        message: { label: 'Message', placeholder: 'Tell us about your plumbing or heating needs...' },
       },
       button: 'Send Message',
     },

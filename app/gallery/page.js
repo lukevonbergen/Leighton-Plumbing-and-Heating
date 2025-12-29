@@ -22,21 +22,21 @@ export default function GalleryPage() {
 
   return (
     <>
-      <main className="pt-20">
+      <main className="pt-24">
         {/* Hero Section */}
-        <section className="bg-[#5C4033] py-20 px-6 md:px-12">
+        <section className="bg-[#00A1D7] py-20 px-6 md:px-12">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
               {gallery.heading}
             </h1>
-            <p className="text-xl text-[#D4C4B0]">
+            <p className="text-xl text-white/90">
               {gallery.subheading}
             </p>
           </div>
         </section>
 
         {/* Gallery Grid */}
-        <section className="py-20 px-6 md:px-12 bg-[#FAF8F5]">
+        <section className="py-20 px-6 md:px-12 bg-[#F8FAFB]">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {gallery.images.map((image, index) => (
@@ -52,8 +52,8 @@ export default function GalleryPage() {
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   {/* Hover Overlay */}
-                  <div className="absolute inset-0 bg-[#2C2416]/0 group-hover:bg-[#2C2416]/50 transition-all duration-300 flex items-end">
-                    <div className="w-full p-4 bg-gradient-to-t from-[#2C2416]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="absolute inset-0 bg-[#1A1A1A]/0 group-hover:bg-[#1A1A1A]/50 transition-all duration-300 flex items-end">
+                    <div className="w-full p-4 bg-gradient-to-t from-[#1A1A1A]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <span className="text-white font-medium">
                         {image.alt}
                       </span>
@@ -68,15 +68,15 @@ export default function GalleryPage() {
         {/* CTA Section */}
         <section className="py-16 px-6 md:px-12 bg-white">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-[#2C2416] mb-4">
+            <h2 className="text-3xl font-bold text-[#1A1A1A] mb-4">
               Like What You See?
             </h2>
-            <p className="text-lg text-[#5C4033] mb-8">
-              Every project is unique. Let's discuss how we can bring your vision to life.
+            <p className="text-lg text-gray-600 mb-8">
+              Every project is unique. Let's discuss how we can help with your plumbing and heating needs.
             </p>
             <Link
               href="/contact"
-              className="inline-block bg-[#5C4033] hover:bg-white hover:text-[#5C4033] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-150"
+              className="inline-block bg-[#00A1D7] hover:bg-[#0089b8] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-150"
             >
               Start Your Project
             </Link>

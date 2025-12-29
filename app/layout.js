@@ -20,8 +20,8 @@ export default function RootLayout({ children }) {
           ${inter.variable}
           font-sans
           antialiased
-          bg-[#FAF8F5]
-          text-[#2C2416]
+          bg-white
+          text-[#1A1A1A]
         `}
       >
         <CarpentryNav />

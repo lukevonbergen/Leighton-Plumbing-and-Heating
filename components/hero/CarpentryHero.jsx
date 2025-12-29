@@ -18,10 +18,10 @@ export default function CarpentryHero() {
       />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#2C2416]/60 z-[1]" />
+      <div className="absolute inset-0 bg-[#1A1A1A]/70 z-[1]" />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6 md:px-12 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-6 md:px-12 max-w-4xl mx-auto pt-20">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight text-white mb-6">
           {hero.heading}
         </h1>
@@ -31,13 +31,13 @@ export default function CarpentryHero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center relative z-20">
           <Link
             href={hero.ctaHref}
-            className="inline-block bg-[#5C4033] hover:bg-white text-white hover:text-[#5C4033] font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-150 cursor-pointer"
+            className="inline-block bg-[#00A1D7] hover:bg-[#0089b8] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-150 cursor-pointer"
           >
             {hero.ctaText}
           </Link>
           <a
             href={`tel:${contact.phone.replace(/\s/g, '')}`}
-            className="inline-flex items-center justify-center gap-2 bg-[#5C4033] hover:bg-white text-white hover:text-[#5C4033] font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-150 cursor-pointer"
+            className="inline-flex items-center justify-center gap-2 bg-[#FA0300] hover:bg-[#d90200] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-150 cursor-pointer"
           >
             <Phone className="w-5 h-5" />
             Call Us
